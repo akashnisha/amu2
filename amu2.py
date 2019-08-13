@@ -1,6 +1,6 @@
-char = input("Enter a character: ")
-if(char=='A' or char=='a' or char=='E' or char =='e' or char=='I'
- or char=='i' or char=='O' or char=='o' or char=='U' or char=='u'):
-    print(char, "is a Vowel")
+chr = input()
+if(chr=='A' or chr=='a' or chr=='E' or chr =='e' or chr=='I'
+ or chr=='i' or chr=='O' or chr=='o' or chr=='U' or chr=='u'):
+    print("Vowel")
 else:
-    print(char, "is a Consonant")
+    print("Consonant")
